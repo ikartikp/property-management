@@ -1,0 +1,22 @@
+<%-include("partials/header")%>
+ <%-include("partials/nav")%>
+ <div class="registerpage">
+   <div class="registerimage">
+   <h1 class="registerheading">Register a new User</h1>
+  <img src="/images/Property-Management-05-1024x812-1.webp" alt="">
+</div>
+ <div class="registeruser">
+ <form action="/register" method="post">
+    <input class="url" type="text" placeholder="Enter image url" name="url"><br>
+    <input class="house" type="text" placeholder="Enter your House detail" name="house"> 
+    <input class="owner" type="text" placeholder="Enter owner name" name="owner"><br>
+    <input class="email" type="email" placeholder="Enter your email" name="email"><br>
+    <input class="price" type="number" placeholder="Enter your price" name="price">
+    <input class="number" type="number" placeholder="Enter your number" name="number"><br>
+   
+    <textarea class="writing" name="discription" id="" cols="30" rows="10" placeholder="Discription"> </textarea><br>
+  <button>submit</button> 
+</form>
+</div>
+</div>
+ <%-include("partials/footer")%>

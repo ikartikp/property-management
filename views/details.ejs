@@ -1,0 +1,23 @@
+<%-include("partials/header")%>
+<%-include("partials/nav")%>
+<div class="maindetail">
+    <div class="detailcards">
+            <div class="detailcard">
+              <div class="detailimage">
+                <img src="<%=details.url%>" alt="" height="100vh" width="50vw">
+              </div>
+              <div class="carddetail">
+                <h1><%=details.user%></h1>
+                <h1><%=details.house%></h1>
+                <h1><%=details.email%></h1>
+                <h1><%=details.price%></h1>
+                <h1><%=details.number%></h1>
+                <h1><%=details.discription%></h1>
+                <a href="">Update</a>
+                <a href="/delete/<%=details._id%>">Delet</a>
+              </div>
+            </div>
+         </div>
+</div>
+
+ <%-include("partials/footer")%>

@@ -1,0 +1,332 @@
+body{background-color: rgb(7, 7, 7);
+overflow-x: hidden;
+}
+nav{
+  height: 10vh;
+  /* width: 100vw; */
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 80px;
+}
+.list{ display: flex;
+  height: 10vh;
+  width: 20vw;
+align-items: center;
+padding-left: 10px;}
+.list a{
+  padding-left: 20px;
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(250, 246, 246);
+  font-family: fantasy;
+  font-weight: 900;
+}
+.list a span{
+  color: rgb(152, 92, 198);
+}
+.links{
+  height: 10vh;
+  width: 45vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.links a{
+  text-decoration: none;
+  color: rgb(252, 250, 250);
+  font-size: large;
+
+}
+.container{
+  height: 140vh;
+  width: 100vw;
+  display: flex;
+}
+
+.container .heading{
+  margin: 1% 5% ;
+  line-height: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  
+}
+.container .heading span{
+  color: rgb(198, 124, 229);}
+.container .heading .home{
+  font-size: 20vh;
+  padding-left: 4%;
+  
+}
+.container .heading .upgrade{
+  font-size: 20vh;
+  /* text-decoration: solid 2px white; */
+}
+.container .heading a{
+  position: absolute;
+  left: 20%;
+  top: 80%;
+  text-decoration: none;
+  color:rgb(255, 255, 255);
+  border: .5px solid rgb(255, 255, 255);
+  padding: 30px 50px;
+  background-color: rgb(172, 114, 201);
+  border-radius: 30px;
+
+}
+.container .imgh p{
+  width: 100%;
+  height: 1%;
+  padding-top: 5%;
+  color: white;
+  font-size:4vh;
+  text-align: center;
+}
+.container .imgh h3{
+  color: white;
+  padding-left: 10%;
+  font-size: 12vh;
+  
+}
+.container .image1 img{
+position: absolute;
+border-radius: 10% 0% 0%;
+top: 18%;
+right: 0%;
+width: 45vw;
+z-index: -3;
+height: 84vh;
+}
+.container .image1 .img2{
+  height: 60%;
+  width: 70%;
+  position: absolute;
+  z-index: 111;
+  top: 90%;
+  border-radius:  50px 50px 0px 0px;
+  right: 5%;
+}
+.page2{
+  height: 100vh;
+  width: 100vw;
+}
+.page2 h1{
+  color: white;
+  text-align: center;
+  font-size: 5vh;
+}
+.page2 .para{
+  color: rgb(156, 153, 153);
+  text-align: center;
+  font-size: 3vh;
+}
+.page2 p{
+  color: rgb(255, 254, 254);
+  text-align: center;
+  font-size: 5vh;
+}
+.imgcontainer{ 
+  
+  height: 40vh;
+  width: 100vw;
+  display: flex;
+justify-content: space-around;
+/* align-items: center; */
+margin-top:10vh ;}
+.page2 .imgcontainer .rental{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 330px;
+  width: 40%;
+  background-image:url(/images/landing-image-2@2x-1.png) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.page2 .imgcontainer .community{
+  height: 330px;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image:url(/images/landing-image-3@2x.png) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page2 .detail{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+
+}
+.page2 .detail h2{
+  color: rgb(92, 89, 89);
+  width: 40%;
+  margin-bottom: 10%;
+
+}
+ .page3{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(/images/photo-1526289034009-0240ddb68ce3.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page3 .mainimg{
+  z-index: 11;
+  position: absolute;
+  top: 20%;
+ background-image: url(/images/mainimg.jpg);
+  height: 65%;
+  width: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page3 .discription{
+  border-radius: 40px 0px 0px 40px;
+  /* border: solid 1px rgb(159, 117, 210); */
+  position: absolute;
+  top: 8%;
+  left: 38%;
+  height: 87%;
+width: 60%;
+background-color: rgb(13, 13, 13);
+}
+.page3 .discription a{
+  position: absolute;
+  top: 79vh;
+  left: 10vw;
+  text-decoration: none;
+  color:rgb(255, 255, 255);
+  padding: 20px 70px;
+  background-color: rgb(172, 114, 201);
+  border-radius: 30px;
+
+
+}
+.page4{
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-around;
+  color: azure;
+  height: 60vh;
+  width: 100vw;
+  background-color: rgb(9, 9, 9);
+ 
+}
+.registerheading{
+  color: rgb(179, 111, 218);
+  font-size: 8vh;
+  margin:60px ;
+}
+.registerpage{
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.registerimage{
+  height: 100%;
+  width: 50%;
+
+}
+.registerimage img{
+  height: 70%;
+  width: 40%;
+  position: absolute;
+  top: 32%;
+  left: 8%;
+}
+.registeruser{
+  height: 100vh;
+  width: 48vw;
+  /* background-color: aqua; */
+text-align: center;
+}
+.registeruser input{
+  font-size: large;
+  text-decoration: none;
+  padding: 30px 70px;
+  margin-top: 40px;
+  border-radius: 30px;
+  background-color: rgba(70, 66, 66, 0.202);
+  border: none;
+  color: white;
+  margin-right: 10px;
+}
+.registeruser .url{
+  padding-right:  410px;
+  text-align: left;
+}
+.registeruser .email{
+  padding-right:  410px;
+  text-align: left;
+}
+.registeruser .writing{
+height: 15vh;
+width: 40vw;
+margin: 5vh;
+background-color: rgba(58, 56, 56, 0.211); 
+color: white;
+font-size: large;
+}
+.registeruser button{
+  text-decoration: none;
+  color:rgb(255, 255, 255);
+  border: .5px solid rgb(255, 255, 255);
+  padding: 28px 90px;
+  background-color: rgb(172, 114, 201);
+  border-radius: 30px;
+
+}
+
+main{
+  min-height: 100vh;
+  width: 100vw;
+  /* background: gray; */
+}
+.cards{
+  min-height: 100vh;
+
+  width: 100vw;
+  display: flex;
+  gap: 10vw;
+  flex-wrap: wrap;
+
+}
+.card{
+  height: 60vh;
+  width: 28vw;
+}
+.card img{
+  width: 28vw;
+  height: 30vh;
+}
+.card h1{
+  color: rgb(169, 167, 167);
+  font-weight: lighter;
+}
+.card a{
+  text-decoration: none;
+  background:rgb(244, 253, 76);
+  color: black;
+  padding: 20px;
+}
+.detailcard{display: flex;}
+.detailcard .detailimage{
+  height: 85vh;
+  width: 50vw;
+}
+.detailcard .detailimage img{
+  height: 80vh;
+  width: 50vw;
+}
+.carddetail{
+  color: azure;
+}

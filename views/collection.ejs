@@ -1,0 +1,21 @@
+<%-include("partials/header")%>
+ <%-include("partials/nav")%>
+<main>
+  <div class="cards">
+    <% property.forEach((oneproperty)=>{%>
+      <div class="card">
+        <img src="<%=oneproperty.url%>" alt="" height="10vh" width="10vw">
+        <h1><%=oneproperty.user%></h1>
+        <h1><%=oneproperty.house%></h1>
+        <!-- <h1><%=oneproperty.email%></h1> -->
+        <!-- <h1><%=oneproperty.number%></h1> -->
+        <!-- <h1><%=oneproperty.discription%></h1> -->
+        <a href="/details/<%=oneproperty._id%>">Explore more</a>
+      </div>
+      <% })%>
+     </div>
+
+</main>
+
+
+ <%-include("partials/footer")%>
